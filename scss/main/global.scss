@@ -1,0 +1,11 @@
+@import './header.scss';
+@import './about.scss';
+@import './footer.scss';
+
+$color: #CDA274;
+
+@mixin btn{
+    width: 200px;
+    height: 50px;
+    background-color: $color;
+}

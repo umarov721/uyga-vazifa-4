@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.header {
+  width: 100%;
+}
+.header .header_nav {
+  width: 90%;
+  height: 50px;
+  display: flex;
+  margin-left: 150px;
+}
+.header .header_nav .header_nav-logo {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+}
+.header .header_nav .header_nav-home {
+  width: 55%;
+  height: 100%;
+}
+.header .header_nav .header_nav-home .header_nav-home-ul {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.header .header_nav .header_nav-home .header_nav-home-ul .header_nav-home-li {
+  width: 100%;
+  height: 100%;
+  margin-top: 15px;
+  color: #292F36;
+}
+.header .header_img {
+  width: 100%;
+  height: 300px;
+  background-image: url(../../img/Photo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.header .header_img .header_img-p {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.header .header_img .header_img-p .header_img-p1 {
+  color: #292F36;
+  padding-top: 20px;
+  width: 300px;
+  height: 100px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  text-align: center;
+  background-color: #fff;
+}
+.header .header_color {
+  margin: 200px auto 0;
+  width: 800px;
+  height: 200px;
+  border-radius: 40px;
+  background-color: #F6F6F6;
+  display: flex;
+}
+.header .header_color .header_color-p {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .header_color .header_color-p .header_color-p1 {
+  width: 200px;
+}
+.header .header_color .header_color-col-ul {
+  width: 350px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.container {
+  width: 800px;
+  margin: 100px auto 0;
+  border-radius: 50px;
+  background: #F6F6F6;
+}
+.container .text {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.container .text .text_p {
+  width: 30%;
+  padding: 40px 20px;
+  line-height: 25px;
+}
+.container .text .text_h {
+  width: 80%;
+  margin-left: 20px;
+}
+.container .text .text_h .text_h-d {
+  width: 250px;
+}
+.container .lorem {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.container .lorem .lorem_p {
+  width: 30%;
+  padding: 40px 20px;
+  line-height: 25px;
+}
+.container .lorem .lorem_h {
+  width: 80%;
+  margin-left: 20px;
+  line-height: 25px;
+}
+
+.conntainer {
+  width: 800px;
+  height: 300px;
+  margin: 100px auto 0;
+  border-radius: 50px;
+  background: #F6F6F6;
+  display: flex;
+  align-items: center;
+}
+.conntainer .buttons {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+}
+.conntainer .buttons .bittons_p {
+  width: 30%;
+  height: 100%;
+  line-height: 25px;
+}
+.conntainer .buttons .buttons_b {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.conntainer .buttons .buttons_b .btn {
+  border-radius: 10px;
+  background-color: #292F36;
+  border: 1px solid #292F36;
+  color: #FFF;
+  width: 200px;
+  height: 50px;
+}
+.conntainer .buttons .buttons_b .btn1 {
+  border-radius: 10px;
+  background-color: #CDA274;
+  border: 1px solid #CDA274;
+  color: #FFF;
+  width: 200px;
+  height: 50px;
+}
+
+.container2 {
+  width: 800px;
+  height: 500px;
+  margin: 100px auto 0;
+  border-radius: 50px;
+  background: #F6F6F6;
+  padding-top: 50px;
+  display: flex;
+}
+.container2 .ikons_ul {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+}
+.container2 .ikons_ul .ikons_p {
+  width: 30%;
+  height: 100%;
+  line-height: 25px;
+}
+.container2 .ikons_ul .ikons_i {
+  width: 60%;
+  height: 100%;
+  line-height: 50px;
+}
+
+.conntainer1 {
+  display: flex;
+}
+.conntainer1 .block_ul {
+  display: flex;
+}
+.conntainer1 .block_ul .block_a {
+  margin-left: 360px;
+  margin-top: 100px;
+  margin-right: 50px;
+}
+.conntainer1 .block_ul .block_p {
+  margin: 100px 0px;
+  width: 550px;
+  height: 150px;
+  border-radius: 50px;
+  background: #F6F6F6;
+  text-align: center;
+  color: #CDA274;
+  padding-top: 40px;
+}
+
+.conntainer2 {
+  width: 800px;
+  margin: 100px auto 0;
+}
+.conntainer2 .farm {
+  display: flex;
+}
+.conntainer2 .farm .farm_p {
+  margin-top: 60px;
+}
+.conntainer2 .farm .farm_in {
+  display: flex;
+  padding: 50px;
+}
+.conntainer2 .btn {
+  border-radius: 10px;
+  background-color: #292F36;
+  border: 1px solid #292F36;
+  color: #FFF;
+  width: 150px;
+  height: 50px;
+  margin-left: 520px;
+  margin-top: 30px;
+}
+
+/*# sourceMappingURL=main.css.map */
